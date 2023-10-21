@@ -40,8 +40,8 @@ def main():
     print("Current device:", device)
 
     # Load the training data
-    path = './nn_datasets'
-    fold = 1
+    path = './spline_datasets'
+    fold = 2
 
     X_train = pd.read_csv(path + '/x_train_fold_' + str(fold) + '.csv')
     y_train = pd.read_csv(path + '/y_train_fold_' + str(fold) + '.csv')

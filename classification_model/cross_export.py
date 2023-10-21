@@ -29,8 +29,8 @@ def main():
         print(le.classes_[i], i)
     '''
     
-    folder = "spline_datasets"
-    data = pd.read_csv(f'./{folder}/spline_v8.50.csv')
+    folder = "zero_datasets"
+    data = pd.read_csv(f'./{folder}/zero_v8.50.csv')
     
     
 
