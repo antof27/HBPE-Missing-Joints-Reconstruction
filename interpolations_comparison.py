@@ -10,13 +10,13 @@ from evaluation_and_plotting.ecdf import ecdf, plotting_ecdf
 from scipy.stats import gaussian_kde
 
 gt_dataset = "./original_datasets/selected_sequences_5.csv"
-akima_dataset = "./interpolated_datasets/nn_dataset.csv"
+akima_dataset = "./interpolated_datasets/akima_interpolated_7.csv"
 zero_filled_dataset = "./original_datasets/zero_filled.csv"
-idw_dataset = "./interpolated_datasets/idw_dataset.csv"
-linear_dataset = "./interpolated_datasets/linear_dataset.csv"
-spline_dataset = "./interpolated_datasets/spline_dataset.csv"
-pchip_dataset = "./interpolated_datasets/pchip_dataset.csv"
-nn_dataset = "./interpolated_datasets/nn_dataset.csv"
+idw_dataset = "./interpolated_datasets/idw_interpolated_7.csv"
+linear_dataset = "./interpolated_datasets/linear_interpolated_7.csv"
+spline_dataset = "./interpolated_datasets/spline_interpolated_7.csv"
+pchip_dataset = "./interpolated_datasets/pchip_interpolated_7.csv"
+nn_dataset = "./interpolated_datasets/nearest_interpolated_7.csv"
 
 
 akima_list = downsample_dataset(zero_filled_dataset, akima_dataset)
