@@ -32,7 +32,7 @@ mean_accuracy = 0
 
 environment = os.getcwd()
 
-fold = 'pchip_datasets/results/'
+fold = 'zero_datasets/results/'
 environment = os.path.join(environment, fold)
 
 # Iterate on the environment folder
