@@ -60,6 +60,7 @@ for i in range(0, len(df.columns)-3, step):
 
                 df.iloc[index:index + sequence_length, i:i + step] = 0
 
+                j += sequence_length
     
 
 
@@ -67,4 +68,4 @@ for i in range(0, len(df.columns)-3, step):
 print(df)
 
 # Save the modified DataFrame to a new CSV file
-df.to_csv('zero_filled_7.csv', index=False)
+df.to_csv('zero_filled_7.1.csv', index=False)
