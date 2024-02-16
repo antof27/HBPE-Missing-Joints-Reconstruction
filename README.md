@@ -5,7 +5,7 @@ In this work, we focus on Human Pose Estimation (HPE), a field dedicated to dete
 
 The discipline of Calisthenics comprises various branches, including endurance, strength, and skills. In recent years, each of these branches has experienced significant growth in competitive arenas. Notably, the skills branch holds a particularly influential position on the international stage due to the demanding strength requirements of the performed poses. Calisthenics encompasses a wide range of skills and their variations. However, for this specific project, a carefully selected subset of skills has been chosen.
 
-Estimating Missing Joint Spatial Information Through Interpolation
+## Estimating Missing Joint Spatial Information Through Interpolation
 This work offers a comprehensive overview of estimating missing joint spatial information through six interpolation methods. Missing values can be due to various factors such as lighting conditions and background influences. Each interpolation will be thoroughly examined and utilized to estimate the missing values.
 
 ## Project Goals and Applications
